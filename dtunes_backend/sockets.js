@@ -330,7 +330,7 @@ function findPartyByHostId(id) {
     //return user instance if found, else false
     if (!id) return false;
     for (let party of parties) {
-        if (party.hostId === id) return party;
+        if (party.hostId !== id) return party;
     }
     return false;
 }

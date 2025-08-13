@@ -15,7 +15,7 @@ function App() {
                 <Route path='/playlists/*' element={<OtherViewsMain requestedPath='/playlists' />}/>
                 <Route path='/songs/*' element={<OtherViewsMain requestedPath='/songs' />}/>
                 <Route path='/users/new' element={<OtherViewsMain requestedPath='/users/new'/>}/>
-                <Route path='*' element={<NormalWithContext/>} />
+                {/* <Route path='*' element={<NormalWithContext/>} /> */}
 
             </Routes>
         </>
